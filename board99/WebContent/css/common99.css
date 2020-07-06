@@ -1,0 +1,12 @@
+@charset "UTF-8";
+#container {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: #bdc3c7;
+	text-align: center;
+}
+#frm {
+	margin-top: 100px;
+	padding-top: 100px;
+}
