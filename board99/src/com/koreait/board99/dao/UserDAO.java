@@ -5,7 +5,7 @@ import java.sql.*;
 import com.koreait.board99.vo.UserVO;
 
 public class UserDAO {
-	// i_user, cid, cpw, nm, r_dt : t_user3
+	// I_USER, CID, CPW, NM, R_DT : T_USER3
 	// 성공 : 1, 아이디없음 : 2, 비밀번호 틀림 : 3, 데이터오류 : 0
 	public static int login(UserVO param) {
 		int result = 0; // 데이터 오류
